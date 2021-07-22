@@ -13,3 +13,4 @@
 
 * 1. Bütün mövzuları təkrarlamaq
 * 2. Qaynaqları oxumaq
+* 3. Sinifdeki tapshirigi bitirmek (Array-in maximal elementini tapmaq)
