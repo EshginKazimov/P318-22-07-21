@@ -1,0 +1,95 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		//int sarkhanAge = 20;
+		//int sarkhan2Age = 21;
+		//int sarkhan3Age = 25;
+		//int sarkhan4Age = 30;
+		
+		//int[] studentAges = {20, 18, 30, 26, 50, 89, 100, 150, 200, 250};
+		
+		//Console.WriteLine(studentAges[5]);
+		//Console.WriteLine(studentAges.Length);
+		//Console.WriteLine(studentAges[0]);
+		//Console.WriteLine(studentAges[studentAges.Length-1]);
+		
+		//for (int i = 0; i < studentAges.Length; i++)
+		//{
+			//Console.WriteLine(studentAges[i]);
+		//}
+		
+		//int[] arr = new int[100];
+		
+		//for (int i = 0; i < arr.Length; i++)
+		//{
+			//arr[i] = i * 10;
+			//Console.WriteLine(arr[i]);
+		//}
+		
+		//int[,] multiArray = {{1, 10, 20}, 
+							 //{2, 20, 35}, 
+							 //{3, 30, 40},
+							 //{3, 40, 55}};
+		
+		//Console.WriteLine(multiArray[2, 1]);
+		//for (int i=0; i<multiArray.Length; i++)
+		//{
+			//for (int j=0; j < 3; j++)
+			//{
+				//Console.WriteLine(multiArray[i, j]);
+			//}
+		//}
+		
+		//for (int i = 0; i < 3; i++)
+		//{
+			//Console.WriteLine(multiArray[2, i]);
+		//}
+		
+		//string[] studentNames = {"Sarkhan", "Ozal", "Elnur"};
+		//for (int i = 0; i < studentNames.Length; i++)
+		//{
+			//Console.WriteLine(studentNames[i]);
+		//}
+		
+		//string name = "Ulvi";
+		//Console.WriteLine(name[0]);
+		
+		//Key-Value
+		//var student1 = new {Name="Ozal", Age=29};
+		//Console.WriteLine(student1.Name + " " + student1.Age);
+		
+		//var student2 = new {Name="Elnur", Age=31};
+		
+		//object[] studentObjects = {student1, student2};
+		//object[] studentObjects = {new {Name="Ozal", Age=29}, 
+								  //new {Name="Elnur", Age=31}};
+		
+		//for (int i=0; i<studentObjects.Length; i++)
+		//{
+			//Console.WriteLine(studentObjects[i]);
+		//}
+		
+		Console.WriteLine(SumRange(200, 500));
+		
+		//{2, 5, 7, 4, 10, 50, 14, 29}
+	}
+	
+	//private static int Sum(int a, int b)
+	//{
+		//return a * b;
+	//}
+	
+	private static int SumRange(int start, int end)
+	{
+		int sum = 0;
+		for (int i=start; i<end; i++)
+		{			
+			sum += i;
+		}
+		
+		return sum;
+	}
+}
